@@ -1,0 +1,117 @@
+#container{
+    width: 1270px;
+    background: white;
+}
+.backgroundBox{
+    background: #2c64ff;
+    width: 0px;
+    padding: 160px;
+    height: 900px;
+}
+
+.image{
+    width: 500px;
+    height: 665px;
+    background-repeat: no-repeat;
+    background:linear-gradient(rgba(15, 40, 228, 0.466),rgba(0, 102, 255, 0.322)),url(lap.jfif);
+    position: absolute;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.692);
+}
+.h2{
+    color: white;
+    font-family: arial;
+    margin: auto;
+    padding: 25px;
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.h2 i{
+    font-size: 60px;
+    margin-right: 10px;
+    
+}
+
+.contant{
+    width: 600px;
+    float: left;
+    margin-left: 500px;
+    box-shadow: 10px 20px 40px 10px rgba(56, 53, 53, 0.322);
+    
+}
+.marginLeft{
+    margin-left: 100px;
+}
+.contant p{
+    margin-left: 390px;
+    margin-top: 30px;
+
+}
+.contant p a{
+    text-decoration: none;
+    color: #2c64ff ;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.registrate h1{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.849);
+    
+}
+
+.registrate span{
+    color: rgba(0, 0, 0, 0.541);
+    font-family: arial;
+    font-size: 15px;
+    
+}
+.inputBoxes{
+    margin-top: 60px;
+    font-family: Arial;
+    font-size: 15px;
+}
+.inputBoxes input{
+    border: none;
+    margin-left: 20px;
+}
+.inputBoxes button{
+    background:#2c64ff;
+    padding: 13px;
+    border: none;
+    border-radius:3px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 90px;
+    display: block;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.inputBoxes button:hover{
+    background: rgba(46, 29, 29, 0.658);
+}
+
+.inputBoxes span{
+    margin-bottom: 60px;
+    color:rgba(0, 0, 0, 0.541) ;
+}
+.inputBoxes span a{
+    text-decoration: none;
+    color:#2c64ff;
+}
+
+.lastContant{
+    font-family: Arial;
+    font-size: 14px;
+}
+.lastContant span{
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.452);
+}
+.lastContant h4{
+
+    color: #2c64ff;
+    
+}
